@@ -31,8 +31,8 @@ struct PDFProposalView: View {
 
     private func generate() {
         let meta = [
-            "title": "Wildfire Roof Sprinkler Proposal",
-            "company": "Your Company",
+            "title": "Embesafe Wildfire Roof Sprinkler Proposal",
+            "company": "Embesafe Wildfire Protection",
             "disclaimer": "This proposal is advisory. Final design requires professional engineering review."
         ]
         let renderer = ProposalPDFRenderer()

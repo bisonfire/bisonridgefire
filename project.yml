@@ -27,7 +27,7 @@ targets:
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.example.FireMitigationApp
+        PRODUCT_BUNDLE_IDENTIFIER: com.embesafe.WildfireProtection
         SWIFT_VERSION: 5.9
         CURRENT_PROJECT_VERSION: 1
         MARKETING_VERSION: 0.1.0

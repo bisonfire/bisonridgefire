@@ -1,6 +1,6 @@
-## Fire Mitigation & Roof Sprinkler Measurement (iOS)
+## Embesafe Wildfire Protection – Field App (iOS)
 
-An iOS SwiftUI app scaffold implementing the core workflows for Property Mitigation Assessment, Roof Measurement (Map + LiDAR), and Config-driven Estimating with Good/Better/Best proposals.
+An iOS SwiftUI app for Embesafe Wildfire Protection implementing core workflows: Property Mitigation Assessment, Roof Measurement (Map + LiDAR), and Config-driven Estimating with Good/Better/Best proposals.
 
 ### Features (Scaffold)
 - SwiftUI app shell with tabs for Measure, Projects, Estimates, and Settings
@@ -21,11 +21,12 @@ An iOS SwiftUI app scaffold implementing the core workflows for Property Mitigat
 ```
 xcodegen generate
 ```
-4) Open the workspace:
+4) Open the project:
 ```
 open FireMitigationApp.xcodeproj
 ```
 5) Select a signing team in Xcode (TARGETS → Signing & Capabilities) and run on device.
+6) If you prefer not to use XcodeGen: Create a new iOS App in Xcode named "Embesafe", then copy the contents of `App/`, `Models/`, `Services/`, `Views/`, and `Resources/` into the project. Ensure you add `MapKit`, `ARKit`, and `PDFKit` in the target's Frameworks, and include the privacy keys from `Resources/Info.plist`.
 
 ### App Store Readiness Checklist (high level)
 - Set unique bundle ID and signing team in `project.yml`
@@ -59,5 +60,4 @@ project.yml
   - Config-driven estimate engine reading JSON catalogs
   - PDFKit report generation and signature capture
 
-# bisonridgefire
-bisonridgefire website 
+This codebase is branded for Embesafe. Replace assets and company text as needed in `Resources/Assets.xcassets` and `Views/AboutEmbesafeView.swift`.

@@ -63,6 +63,7 @@ struct SettingsView: View {
             List {
                 NavigationLink("Proposal PDF Preview", destination: PDFProposalView())
                 Text("Settings and sync options")
+                NavigationLink("About Embesafe", destination: AboutEmbesafeView())
             }
                 .navigationTitle("Settings")
         }
